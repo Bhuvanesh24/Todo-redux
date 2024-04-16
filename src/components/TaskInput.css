@@ -1,0 +1,60 @@
+.form-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-container input {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .form-container button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px; /* Add margin to the left */
+  }
+  
+  /* src/components/TaskList.css */
+  .task-list-container {
+    text-align: center;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto; /* Center the task list */
+    max-width: 400px; /* Limit the width of the task list */
+  }
+  
+  .task-list li {
+    margin-bottom: 10px;
+    display: flex; /* Use flexbox to align buttons */
+    align-items: center; /* Align buttons vertically */
+  }
+  
+  .task-list span {
+    flex-grow: 1; /* Allow task text to grow to fill remaining space */
+  }
+  
+  .task-list button {
+    padding: 8px 16px;
+    margin-left: 5px; /* Add margin to the left */
+    cursor: pointer;
+  }
+  
+  .task-list .completed {
+    text-decoration: line-through;
+    color: #6c757d; 
+  }
+  
+  .task-list button.completed {
+    background-color: #6c757d; 
+  }
+  
+  .task-list button.delete {
+    background-color: #dc3545; /* Change background color of delete button */
+  }
+  
